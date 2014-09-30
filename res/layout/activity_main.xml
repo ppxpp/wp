@@ -1,0 +1,29 @@
+<me.ppxpp.widget.MainContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:background="#FF0000"
+    tools:context="me.ppxpp.wp.MainActivity" >
+
+
+    <LinearLayout
+        android:id="@+id/first"
+        android:orientation="vertical"
+        android:background="#D02090"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/second"
+        android:orientation="vertical"
+        android:background="#6959CD"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/test2"
+            android:text="bbbbbb"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+    </LinearLayout>
+</me.ppxpp.widget.MainContainer>
